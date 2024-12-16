@@ -58,24 +58,34 @@ round-images:
       caption: "Caption 6"
 
 image-text-row:
-    - header: "Image-Text-Row"
-      excerpt: "This is an image-text-row"
-      image-url: "/assets/images/header.webp"
+    - header: "Hydrogen Water: Unlock Natural Healing Benefits."
+      excerpt: "Hydrogen water supports your health by reducing inflammation, alleviating joint pain, and boosting energy. With potential benefits for heart health, aging, and even abnormal cell growth, it’s a simple yet powerful solution for everyday wellness."
+      image-url: "/assets/images/Benefits.jpeg"
       alt-text: "Alternative text for the image"
       image-width: "400px"
       image-right: false
 
 image-text-row-two:
-    - header: "Image-Text-Row"
-      excerpt: "This is an image-text-row with the image on the right (on large enough screens) and a little bit longer text plus a button"
+    - header: "Replace Toxic Products with Kangen Water."
+      excerpt: "The Kangen Ionizer offers a healthier, eco-friendly alternative to chemical-laden products. Clean, hydrate, and rejuvenate your life with alkaline water, eliminating the need for harmful household and personal care items."
       btn-url: "#"
       btn-class: "info"
-      btn-label: "A button"
       blank: false
-      image-url: "/assets/images/sydney-2.webp"
+      image-url: "/assets/images/change.jpeg"
       alt-text: "Alternative text for the image"
       image-width: "400px"
       image-right: true
+
+image-text-row-three:
+    - header: "Balance Your Body’s pH for Optimal Health.."
+        excerpt: "An alkaline body promotes energy, strength, and vitality. By choosing alkaline water and foods, you fight acidity, stress, and aging, supporting your body’s natural pH balance of 7.365 for long-term health."
+        btn-url: "#"
+        btn-class: "info"
+        blank: false
+        image-url: "/assets/images/Ph_balance.jpeg"
+        alt-text: "Alternative text for the image"
+        image-width: "400px"
+        image-right: false
 ---
 
 <section class="site-section alternative-color first-section" id="Who we are">
@@ -92,9 +102,10 @@ image-text-row-two:
     
     
     <h3>Some Pictures</h3>
-    {% include gallery caption="Gallery captions, just like the rest of the theme, **support Markdown**"%}
-    <h3> Round Images</h3>
-    {% include round-images %}
+    {% include gallery caption=" Meet us, Owners of **House Of Living Water**  "%}
+
+    
+    {% include image-text-row %}
 
     <h2> Akaline Water </h2>
 
